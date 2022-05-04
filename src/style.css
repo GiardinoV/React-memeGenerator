@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+}
+
+.divHeader {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    padding: 20px;
+    background: linear-gradient(#672280, #A626D3);
+    color:#FFFFFF;
+}
+
+.imgHeader{
+    height: 100%;
+    margin-right: 6px;
+}
+
+.h2Header {
+    font-size: 1.50rem;
+    margin-right: auto;
+}
+
+.h4Header {
+    font-size: 1rem;
+    font-weight: 500;
+}
