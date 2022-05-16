@@ -41,18 +41,22 @@ main {
     gap: 17px;
 }
 
-.formInput {
+.form--input {
     font-family: "Karla", sans-serif;
     border-radius: 5px;
     border: 1px solid #D5D4D8;
     text-indent: 5px;
 }
 
-.formButton {
+.form--button {
     grid-column: 1 / -1;
     font-family: "Karla", sans-serif;
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
     color: #FFFFFF;
     border: none;
     cursor: pointer;  
+}
+
+.meme--image {
+    max-width: 100%;
 }
