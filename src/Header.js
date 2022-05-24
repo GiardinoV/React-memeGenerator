@@ -3,10 +3,10 @@ import logo from "./troll-face.png"
 
 export default function Header(){
     return(
-        <div className="divHeader">
-            <img className="imgHeader" alt="troll" src={logo} />
-            <h2 className="h2Header">Meme Generator</h2>
-            <h4 className="h4Header">React Project </h4>
-        </div>
+        <header className="header">
+            <img className="header--image" alt="troll" src={logo} />
+            <h2 className="header--title">Meme Generator</h2>
+            <h4 className="header--project">React Project </h4>
+            </header>
     )
 }
